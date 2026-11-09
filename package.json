@@ -1,5 +1,5 @@
 {
-  "name": "dsh-qqmail",
+  "name": "@qhao/dsh-qqmail",
   "version": "0.1.0",
   "type": "module",
   "description": "Read-only QQ Mail (IMAP) tools and a settings page for DeepSeek Harness.",
@@ -12,6 +12,9 @@
     "qq-mail"
   ],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Q-hao516",
   "repository": {
     "type": "git",

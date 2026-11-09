@@ -3,7 +3,7 @@
  * 通过同源 HTTP 路由 /dsh-qqmail/settings 与宿主通信。
  */
 window.__ModuleLoader__.load({
-  id: 'dsh-qqmail',
+  id: '@qhao/dsh-qqmail',
   factory(require) {
     const React = require('react')
     const h = React.createElement

@@ -29,7 +29,7 @@ values, verifies them against `imap.qq.com` before saving, and closes the loop w
 ## Install
 
 ```sh
-dsh plugin --profile <your-profile> add dsh-qqmail
+dsh plugin --profile <your-profile> add @qhao/dsh-qqmail
 ```
 
 Or straight from this repository:
