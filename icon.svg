@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="QQ Mail">
+  <rect x="6" y="14" width="52" height="36" rx="6" fill="#1a7cf0"/>
+  <path d="M8 18 L32 36 L56 18" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="47" cy="43" r="9" fill="#ffffff" opacity="0.92"/>
+  <path d="M43.5 43.5 L46 46 L51 40.5" fill="none" stroke="#1a7cf0" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

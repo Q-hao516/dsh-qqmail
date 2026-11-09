@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "QQ 邮箱",
+    "description": "通过 IMAP 读取 QQ 邮箱：列出最近邮件、搜索邮件、查看正文。"
+  }
+}

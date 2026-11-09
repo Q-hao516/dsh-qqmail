@@ -1,0 +1,61 @@
+{
+  "name": "dsh-qqmail",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Read-only QQ Mail (IMAP) tools and a settings page for DeepSeek Harness.",
+  "keywords": [
+    "dsh-plugin",
+    "dsh",
+    "deepseek-harness",
+    "email",
+    "imap",
+    "qq-mail"
+  ],
+  "license": "MIT",
+  "author": "Q-hao516",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Q-hao516/dsh-qqmail.git"
+  },
+  "homepage": "https://github.com/Q-hao516/dsh-qqmail#readme",
+  "bugs": {
+    "url": "https://github.com/Q-hao516/dsh-qqmail/issues"
+  },
+  "engines": {
+    "dsh": ">=0.2.1-rc.3"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "selftest.mjs"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  },
+  "dependencies": {
+    "@deepseek-ai/schemastery": "^3.18.3"
+  },
+  "scripts": {
+    "test": "node selftest.mjs"
+  }
+}
